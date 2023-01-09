@@ -1,0 +1,22 @@
+{
+  "name": "dynamic_load_balancer_app_server",
+  "version": "1.0.0",
+  "description": "App server for general purpose dynamic load balancer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kiet Pham",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1145.0",
+    "body-parser": "^1.20.0",
+    "cluster": "^0.7.7",
+    "cluster-hub": "^0.1.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "farmhash": "^3.2.2",
+    "node-os-utils": "^1.3.6",
+    "redis": "^4.1.0"
+  }
+}
